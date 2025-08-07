@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>lohi</title>
+        <style>
+            .grand{
+                perspective: 1000px;
+            }
+            .parent{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position:relative;
+                transition: transform 2s linear;
+                transform-style: preserve-3d;
+               
+            }
+            .front{
+                width:350px;
+                height:200px;
+                background-color: red;
+                color: white;
+                position: absolute;
+                top:0px;
+                backface-visibility: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .back{
+                width:350px;
+                height:200px;
+                background-color: blue;
+                color: white;
+                position: absolute;
+                top:0px;
+                backface-visibility: hidden;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                transform: rotateY(180deg);
+            }
+            .parent:hover{
+                  transform: rotateY(180deg);
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grand">
+        <div class="parent">
+        <div class="front">
+           <div>Name:Lohitha</div>
+           <div>occupation:Billianore</div>
+        </div>
+        <div class="back">
+           <div>Name:Sushmita</div>
+           <div>occupation:Beggar</div>
+        </div>
+        </div>
+        </div>
+    </body>
+</html>

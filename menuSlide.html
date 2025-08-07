@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Lohitha</title>
+        <link rel="stylesheet" href="menuSlide.css"/>
+    </head>
+    <body>
+        <button onclick="openn()">Open Menu</button>
+        <div  class="menu">
+            <span onclick="cloose()" >&times;</span>
+            <div>Home</div>
+            <div>About</div>
+            <div>Contact</div>
+            <div>Details</div>
+            <div>Address</div>
+        </div>
+        <script>
+        function cloose(){
+             document.getElementsByClassName("menu")[0].style.left="-200px";
+        }
+        function openn(){
+            document.getElementsByClassName("menu")[0].style.left="0px";
+
+        }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Lohi</title>
+        <style>
+           .parent{
+            width:100%;
+            height:1000px;
+            border:3px solid black;
+            display: flex;
+            color: white;
+             font-size: 60px;
+             display: grid;
+             /* grid-template-rows: 1fr 1fr 1fr 1fr; */
+            grid-template-rows:repeat( 4,1fr);
+             grid-template-columns: 1fr 1fr 1fr;
+           }
+           .child1{
+            width:200px;
+            height:200px;
+            text-align: center;
+            background-color:rgb(7, 60, 196);
+           }
+           
+        </style>
+    </head>
+    <body>
+        <div class="parent">   
+            <div class="child1">1</div>
+            <div class="child1">2</div>
+            <div class="child1">3</div>
+            <div class="child1">4</div>
+            <div class="child1">5</div>
+            <div class="child1">6</div>
+            <div class="child1">7</div>
+            <div class="child1">8</div>
+            <div class="child1">9</div>
+            <div class="child1">10</div>
+            <div class="child1">11</div>
+            <div class="child1">12</div>
+            
+        </div>
+    </body>
+</html>

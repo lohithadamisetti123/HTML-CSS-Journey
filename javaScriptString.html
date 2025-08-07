@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Mrs.taeKook</title>
+        <script>
+            //~~~~~~StringFunctions~~~~~~
+
+            var s="LoHiTha"
+            s= s.toLowerCase()
+            s= s.toUpperCase()
+            s= s.indexOf("h")
+            s= s.lastIndexOf('a')
+            s=s.replace('h','u')
+            s= s.replaceAll('h','k')
+            s=s.split(",")
+            console.log(s)
+
+            //~~~~~~~~~~OBJECT~~~~~~~~~
+
+            var d ={}
+            d[1]=100
+            d[2]=200
+            d[3]=300
+            console.log(d[1])
+            console.log(Object.values(d))
+            console.log(Object.keys(d))
+            console.log(Object.entries(d))
+            Object.entries(d).map(ele=>{console.log("key: ",ele[0],"value: ",ele[1])})
+
+            //~~~~~~DATE~~~~~~~~~~~~
+
+            var d=new Date()
+            d=d.getFullYear()
+            d=d.getDay()
+            d=d.getHours()
+            d=d.getMinutes()
+            d=d.getDate()
+            console.log(d)
+        </script>
+    </head>
+</html>

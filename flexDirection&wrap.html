@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>Lohi</title>
+        <style>
+           .parent{
+            width:100%;
+            height:700px;
+            border:3px solid black;
+            display: flex;
+            color: white;
+             font-size: 60px;
+             justify-content: space-between;
+             /* flex-direction: column;
+             flex-direction: column-reverse;
+             flex-direction: row; */
+             flex-direction: row-reverse;
+             /* it will not decrease the child size instead it arrange in dowm(9 positions) */
+             flex-wrap: wrap;
+             /* we can custom our own gap */
+             gap:30px;
+             row-gap: 30px;
+             column-gap: 20px;
+             /* 1st-row 2nd-column */
+             gap: 10px 20px;
+           }
+           .child1{
+            width:200px;
+            height:200px;
+            text-align: center;
+            background-color:rgb(7, 60, 196);
+           }
+           .child2{
+            width:200px;
+            height:200px;
+            text-align: center;
+            background-color:rgb(5, 80, 19);
+           }
+           .child3{
+            width:200px;
+            height:200px;
+            text-align: center;
+            background-color: red;
+           }
+           .child4{
+            width:200px;
+            height:200px;
+            text-align: center;
+            background-color:rgb(186, 15, 233);
+           }
+           .child5{
+            width:200px;
+            height:200px;
+            text-align: center;
+            background-color: rgb(227, 122, 16);
+           }
+           .child6{
+            width:200px;
+            height:200px;
+            text-align: center;
+            background-color: rgb(213, 236, 7);
+           }
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child1">1</div>
+            <div class="child2">2</div>
+            <div class="child3">3</div>
+            <div class="child4">4</div>
+            <div class="child5">5</div>
+            <div class="child6">6</div>
+        </div>
+        
+    </body>
+</html>

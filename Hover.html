@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>Lohi</title>
+        <style>
+           .hoverr{
+            width: 100px;
+            height:100px;
+            background-color: blue;
+           }
+           .hoverr:hover{
+            width: 200px;
+            height:200px;
+            background-color: purple;
+            border-radius: 30%;
+           }
+           .activee:active{
+            background-color: aquamarine;
+           }
+           .focuss{
+           
+            border: 1px solid blue;
+           }
+           .parent :nth-child(3){
+            color: darkred;
+           }
+           h2:not(.nott){
+              color:pink;
+           }
+        </style>
+    </head>
+    <body>
+        <div class="hoverr"></div>
+        <button class="activee">Click Me</button>
+        <input class="focuss" type="text"/>
+        <div class="parent">
+            <h1>child1</h1>
+            <h1>child2</h1>
+            <h1>child3</h1>
+            <h1>child4</h1>
+        </div>
+        <h2 class="nott">one</h2>
+        <h2 class="nott">two</h2>
+        <h2>three</h2>
+        <h2>four</h2>
+    </body>
+</html>

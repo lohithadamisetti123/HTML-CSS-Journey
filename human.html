@@ -1,0 +1,318 @@
+<html>
+    <head>
+        <title>HUMAN</title>
+        <style>
+          .page{
+            width:100%;
+            height:740px;
+            background:linear-gradient(to right ,purple 5%,navy);
+            position: relative;
+          }
+          .human{
+            position: absolute;
+            top:-1500px;
+            left:700px;
+          }
+          .body{
+            width:150px;
+            height:160px;
+            background-color: yellow;
+            border-radius: 25px 25px 10px 10px;
+            position: absolute;
+            top:200px;
+            left:500px;
+          }
+          .hand{
+            width:250px;
+            height:50px;
+            background-color: yellow;
+            position: absolute;
+            top:15px;
+            left:-50px;
+          }
+          .hand1{
+            width:50px;
+            height: 30px;
+            background-color: peachpuff;
+            border-bottom-left-radius: 10px;
+            position: absolute;
+            top:25px;
+            left:-100px;
+          }
+          .hand2{
+            width:80px;
+            height: 30px;
+            background-color: peachpuff;
+            border-bottom-right-radius: 10px;
+            transform: rotate(45deg);
+            position: absolute;
+            top:3px;
+            left:-152px;
+          }
+          .hand3{
+            width:40px;
+            height:40px;
+            background-color: peachpuff;
+            border-radius: 45%  10px 10px 45%;
+            transform: rotate(45deg);
+            position: absolute;
+            top:-39px;
+            left:-168px;
+          }
+          .hand4{
+            width:10px;
+            height:25px;
+            background-color: peachpuff;
+            border-radius: 5px 5px 5px 5px;
+            transform: rotate(135deg);
+            position: absolute;
+            top:-57px;
+            left:-165px;
+          }
+          .hand5{
+            width:80px;
+            height: 30px;
+            background-color: peachpuff;
+            border-radius: 0px 10px 10px 0px;
+            transform: rotate(35deg);
+            position: absolute;
+            top:5px;
+            left:170px;
+          }
+          .hand6{
+            width:40px;
+            height:40px;
+            background-color: peachpuff;
+            border-radius: 45%  10px 10px 45%;
+            transform: rotate(35deg);
+            position: absolute;
+            top:-32px;
+            left:144px;
+          }
+          .hand7{
+            width:10px;
+            height:25px;
+            background-color: peachpuff;
+            border-radius: 5px 5px 5px 5px;
+            transform: rotate(125deg);
+            position: absolute;
+            top:-50px;
+            left:144px;
+          }
+          .hand8{
+            width:50px;
+            height: 30px;
+            background-color: peachpuff;
+            border-radius: 0px 10px 10px 0px;
+            position: absolute;
+            top:25px;
+            left:200px;
+          }
+          .b{
+            width:10px;
+            height:40px;
+            border: 2px solid;
+            position: absolute;
+            border-right: green;
+            border-top: green;
+            top:10px;
+            left:70px;
+          }
+          .b1{
+            width: 8px;
+            height: 8px;
+            border-radius: 100%;
+            background-color: rgb(3, 36, 3);
+            position: absolute;
+            top:12px;
+            left:75px;
+          }
+          .b2{
+            width: 8px;
+            height: 8px;
+            border-radius: 100%;
+            background-color: rgb(3, 36, 3);
+            position: absolute;
+            top:25px;
+            left:75px;
+          }
+          .b3{
+            width: 8px;
+            height: 8px;
+            border-radius: 100%;
+            background-color: rgb(3, 36, 3);
+            position: absolute;
+            top:38px;
+            left:75px;
+          }
+          .belt{
+            width:150px;
+            height:15px;
+            background-color: black;
+            position: absolute;
+            top:360px;
+            left:500px;
+          }
+          .leg1{
+            width:70px;
+            height:220px;
+            background-color: rgb(6, 45, 6);
+            position: absolute;
+            top:375px;
+            left:500px;
+          }
+          .leg2{
+            width:70px;
+            height:220px;
+            background-color: rgb(6, 45, 6);
+            position: absolute;
+            top:375px;
+            left:580px;
+          }
+          .s1{
+            width:80px;
+            height:30px;
+            background-color:black;
+            border-top-right-radius:15px;
+            position: absolute;
+            top:590px;
+            left:580px;
+          }
+          .s2{
+            width:80px;
+            height:30px;
+            background-color:black;
+            border-top-left-radius:15px;
+            position: absolute;
+            top:590px;
+            left:490px;
+          }
+          .neck{
+            width:36px;
+            height:40px;
+            background-color: peachpuff;
+            position: absolute;
+            top:161px;
+            left:560px;
+          }
+          .head{
+              width:100px;
+              height:100px;
+              border-radius: 100%;
+              background-color: peachpuff;
+              position: absolute;
+              top:85px;
+              left:529px;
+              z-index: 1;
+          }
+          .hair{
+              width:100px;
+              height:100px;
+              border-radius:40% 40% 40% 40%;
+              background-color: black;
+              position: absolute;
+              top:63px;
+              left:529px;
+              z-index: 0;
+          }
+          .ear{
+            width:120px;
+            height:25px;
+            background-color: peachpuff;
+            border-radius: 20px 20px 20px 20px;
+            position: absolute;
+            top:130px;
+            left:518px;
+          }
+          .eye{
+            width:20px;
+            height:10px;
+            border: 2px solid black;
+            border-radius: 50%;
+            position: absolute;
+            top:35px;
+            left: 18px;
+          }
+          .e{
+            width:9px;
+            height:10px;
+            background-color: black;
+            border-radius: 100%;
+            position: absolute;
+            top:1px;
+            left: 5px;
+          }
+          .eye1{
+            width:20px;
+            height:10px;
+            border: 2px solid black;
+            border-radius: 50%;
+            position: absolute;
+            top:35px;
+            left: 60px;
+          }
+          .nose{
+            width:7px;
+            height:12px;
+            background-color: black;
+            border-radius: 50%;
+            position: absolute;
+            top:52px;
+            left:48px;
+          }
+          .mouth{
+             width: 22px;
+            height: 7px;
+            border-radius: 0px 0px 16px 16px;
+            border: 2px solid black;
+            position: absolute;
+            top:70px;
+            left:40px;
+          }
+          .human {
+          position: absolute;
+          animation: down 3s forwards;
+        }
+        @keyframes down {
+          to { top: calc(240px - 130px); }
+        }
+        </style>
+    </head>
+    <body>
+     <div class="page">
+       <div><img width="1000px" height="350px" src="./thub.png"/></div>
+        <div class="human">
+        <div class="body">
+        <div class="hand"></div>
+        <div class="hand1"></div>
+        <div class="hand2"></div>
+        <div class="hand3"></div>
+        <div class="hand4"></div>
+        <div class="hand5"></div>
+        <div class="hand6"></div>
+        <div class="hand7"></div>
+        <div class="hand8"></div>
+        
+        <div class="b"></div>
+        <div class="b1"></div>
+        <div class="b2"></div>
+        <div class="b3"></div>
+        </div>
+        <div class="belt"></div>
+        <div class="leg1"></div>
+        <div class="leg2"></div>
+        <div class="s1"></div>
+        <div class="s2"></div>
+        <div class="neck"></div>
+        <div class="head">
+          <div class="eye"><div class="e"></div></div>
+          <div class="eye1"><div class="e"></div></div>
+          <div class="nose"></div>
+          <div class="mouth"></div>
+        </div>
+        <div class="hair"></div>
+        <div class="ear"></div>
+        </div>
+     </div>
+    </body>
+</html>

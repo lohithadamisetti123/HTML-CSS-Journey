@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>lohitha</title>
+        <style>
+            .box1{
+                width:150px;
+                height:150px;
+                background-color: black;
+                /* animation-name: myanime;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in;
+                animation-direction: alternate;  */
+                /* name,duration,timing,delay,count,direction */
+                animation: myanime 3s ease-in 1s infinite alternate;
+                 position: relative;
+            }
+            .box2{
+                width:150px;
+                height:150px;
+                background-color: rgb(219, 14, 14);
+                animation-name: myanime;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-out;
+                /* if u give more than duration it will work for only infinite */
+                animation-delay: 10s;
+                position: relative;
+            }
+            .box3{
+                width:150px;
+                height:150px;
+                background-color: rgb(114, 203, 11);
+                animation-name: myanime;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+                animation-timing-function: ease-in-out;
+                position: relative;
+            }
+            .box4{
+                width:150px;
+                height:150px;
+                background-color: rgb(9, 52, 205);
+                animation-name: myanime;
+                animation-duration: 3s;
+                animation-iteration-count: infinite;
+                animation-timing-function: linear;
+                position: relative;
+            }
+            @keyframes myanime{
+                from{
+                    left: 0px;
+                }
+                to{
+                    left: 300px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+         <div class="box1"></div>
+         <div class="box2"></div>
+         <div class="box3"></div>
+         <div class="box4"></div>
+    </body>
+</html>

@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>lohi</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+         .header {
+        width: 100%;
+        height: 80px;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 20px;
+        position: fixed;
+        z-index: 1;
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .logo img {
+        height: 70px;
+        }
+
+        .menu {
+        display: flex;
+        gap: 20px;
+        font-family: 'Montserrat', sans-serif;
+        }
+
+        .menu div {
+        font-size: 18px;
+        font-weight: bold;
+        }
+
+        .logout button {
+        margin-right:50px;
+        font-weight: bold;
+        padding: 10px 10px;
+        font-size: 20px;
+        color: white;
+        background-color: rgb(5, 167, 5);
+        border-radius: 10px;
+        border: 0;
+        }
+        .drop {
+        position: relative;
+        font-size: 2.0rem;
+        margin-right: 50px;
+        }
+        .dropdown {
+            display: none;
+            position: absolute;
+            top: 100%;
+            right: 0;
+            background-color: white;
+            border: 1px solid black;
+            width: 100px;
+            z-index: 100;
+            flex-direction: column;
+            }
+            .submenu {
+            padding:10px; 
+            font-size: 0.9rem; 
+            text-align: center;
+            color: black;
+            }
+            .submenu:hover {
+            background-color: grey;
+            color: white;
+            }
+            .drop:hover .dropdown {
+            display: flex;
+            }
+            @media(max-width:768px){
+                .menu{
+                    display: none;
+                }
+                .logout {
+                    margin-left: auto;
+                    margin-right: -40px;
+                }
+            }
+            @media(min-width:769px){
+                .drop{
+                    display: none;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo"><img width="200px" height="70px" src="https://maya.technicalhub.io/assets/images/logo/logo-dark.png"/></div>
+            <div class="menu">
+                <div>My Maya</div>
+                <div>Owl Code</div>
+                <div>APT Logic</div>
+                <div>Contact</div>
+            </diV>
+            <div class="logout"><button>Logout</button></div>
+            <div class="drop"><i class="fa-solid fa-list-ul"></i>
+                <div class="dropdown">
+                <div class="submenu">My Maya</div>
+                <div class="submenu">Owl Code</div>
+                <div class="submenu">Apt Logic</div>
+                <div class="submenu">Contact</div>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>

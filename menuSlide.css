@@ -1,0 +1,41 @@
+body{
+    background-image:linear-gradient(to right,rgb(229, 227, 240),rgb(179, 171, 234),rgb(89, 77, 169));
+}
+.menu{
+    top:0px;
+    position: absolute;
+    width: 200px;
+    height:100svh;
+    background-color: darkslateblue;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+    cursor: pointer;
+    left: -200px;
+    transition: left 0.5s ease-out;
+}
+.menu div{
+    color: white;
+    font-size: 24px;
+    padding: 15px 0px;
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+    width: 100%;
+}
+.menu div:hover{
+    background-color: rgb(149, 139, 213);
+    color: black;
+}
+span{
+    width: fit-content;
+    font-size: 45px;
+    color: white;
+    
+}
+button{
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: darkslateblue;
+}

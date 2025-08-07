@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>lohi</title>
+    </head>
+    <style>
+        .linearGradient{
+            width: 350px;
+            height:350px;
+            /* background-image:linear-gradient(yellow,green) ;
+            background-image:linear-gradient(to top, yellow,green) ;
+            background-image:linear-gradient(to left, yellow,green) ;
+            background-image:linear-gradient(to right, yellow,green) ; */
+            /* diagonallyy */
+            background-image:linear-gradient(to top left, yellow,green) ;
+            /* background-image:linear-gradient(to  bottom left, yellow,green);
+            background-image:linear-gradient(to top right, yellow,green) ;
+            background-image:linear-gradient(to  bottom right, yellow,green) ; */
+        }
+        .radialGradient{
+           width: 350px;
+            height:350px;
+            /* background-image: radial-gradient(pink,green); */
+            /* background-image: radial-gradient(pink ,violet 33%,purple 66%);   */
+            background-image:repeating-radial-gradient(blue 5% ,red 10%,yellow 15%);  
+        }
+        .ConicGradient{
+            width: 350px;
+            height:350px;
+              background-image: Conic-gradient(blue,red,green);
+           /* background-image: Conic-gradient(at 70% 30% blue,red,green); */
+             /* background-image:Conic-gradient(at 30% 70% ,blue,red,green); */
+             border-radius:50%;
+        }   
+    </style>
+    <body>
+        <div class="linearGradient"></div>
+        <div class="radialGradient"></div>
+        <div class="ConicGradient"></div>
+    </body>
+</html>
