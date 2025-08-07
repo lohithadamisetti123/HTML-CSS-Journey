@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>lohi</title>
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .trans{
+                width: 200px;
+                height: 200px;
+                background-color: rgb(224, 4, 248);
+                /* transition-property: width;
+                transition-duration: 5s;
+                transition-timing-function: ease-in;
+                transition-delay: 2s; */
+
+                /* transition: width 2s linear 1s; */
+
+                 transition: all 1s linear 1s;
+            }
+            .trans:hover{
+                width: 300px;
+                background-color: blue;
+                height: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="trans"></div>
+    </body>
+</html>

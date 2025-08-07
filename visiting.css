@@ -1,0 +1,270 @@
+.body1{
+    width:300px;
+    height:450px;
+    position: relative;
+    background-image:linear-gradient( rgb(228, 228, 230) , rgb(237, 237, 247)) ;
+    box-shadow: 0px 0px 17px 15px rgb(38, 38, 95);
+    border-radius:30px;
+    top:50px;
+    left:50px;
+}
+.div1{
+    width:300px;
+    height:200px;
+    background-color: rgb(3, 3, 56);
+    border-radius:30px;
+    position: absolute;
+}
+.sv{
+    position: absolute;
+    top:10px;
+    left:120px;
+}
+.txt{
+    font-family: "Eagle Lake", serif;
+    color: white;
+    position: absolute;
+    top:55px;
+    left:75px;
+}
+.txt1{
+    color: white;
+    position: absolute;
+    top:83px;
+    left:76px;
+    font-size: 8px;
+    letter-spacing: 2px;
+}
+.c1{
+    width:150px;
+    height:150px;
+    background-color: rgb(3, 3, 56);
+    border-radius: 100%;
+    position: absolute;
+    top:110px;
+    left:75px;
+}
+.c2{
+    width:120px;
+    height:120px;
+    background-color:  white;
+    border-radius: 100%;
+    position: absolute;
+    top:14px;
+    left:14px;
+}
+.pic{
+    position:absolute;
+    top:17px;
+    left:17px;
+}
+.name1{
+    font-size:18px;
+    font-family: "Lugrasimo", cursive;
+    position: absolute;
+    top:280px;
+    left:40px;
+}
+.name2{
+    font-size: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 6px;
+    position: absolute;
+    top:310px;
+    left:60px;
+}
+.code{
+    position: absolute;
+    top:360px;
+    left:120px;
+    box-shadow: 0px 0px 15px 10px rgb(38, 38, 95);
+}
+.icon{
+    position: absolute;
+    top:310px;
+    left:217px;
+}
+.body2{
+    width:300px;
+    height:450px;
+    background-image:linear-gradient( rgb(226, 226, 234) , rgb(240, 240, 245)) ;
+    box-shadow: 0px 0px 17px 15px rgb(38, 38, 95);
+    border-radius:30px;
+    position: relative;
+    bottom:400px;
+    left:450px;
+}
+.div2{
+    width:300px;
+    height:150px;
+    background-color: rgb(3, 3, 56);
+    border-radius:30px;
+    position: absolute;
+    top:301px;
+}
+.c3{
+    width:150px;
+    height:150px;
+    background-color: rgb(3, 3, 56);
+    border-radius: 100%;
+    position: absolute;
+    bottom:60px;
+    left:75px;
+    z-index: 0;
+}
+.svv{
+    position: absolute;
+    bottom:140px;
+    left:120px;
+    z-index: 1;
+}
+.txtt{
+    font-family: "Eagle Lake", serif;
+    color: white;
+    position: absolute;
+    bottom:115px;
+    left:72px;
+    z-index: 1;
+    font-size: 18px ;
+}
+.txtt1{
+    color: white;
+    position: absolute;
+    bottom:50px;
+    left:20px;
+    font-size: 13px;
+    letter-spacing: 2px;
+    z-index: 1;
+}
+.label1{
+    width: 45px;
+    height: 25px;
+    background-color:  rgb(3, 3, 56);
+    position: absolute;
+    top:20px;
+}
+.lc{
+   width:30px;
+   height:30px;
+   border: 4px solid  rgb(3, 3, 56);
+   border-radius: 100%;
+   position: absolute;
+    top:14px;
+    left:40px;
+}
+.label2{
+    width: 45px;
+    height: 25px;
+    background-color:  rgb(3, 3, 56);
+    position: absolute;
+    top:70px;
+}
+.lc2{
+   width:30px;
+   height:30px;
+   border: 4px solid  rgb(3, 3, 56);
+   border-radius: 100%;
+   position: absolute;
+    top:64px;
+    left:40px;
+}
+.label3{
+    width: 45px;
+    height: 25px;
+    background-color:  rgb(3, 3, 56);
+    position: absolute;
+    top:120px;
+}
+.lc3{
+   width:30px;
+   height:30px;
+   border: 4px solid  rgb(3, 3, 56);
+   border-radius: 100%;
+   position: absolute;
+    top:114px;
+    left:40px;
+}
+.phn{
+    position: absolute;
+    top:27px;
+    left:50px;
+}
+.add{
+    position: absolute;
+    top:76px;
+    left:50px;
+}
+.net{
+    position: absolute;
+    top:126px;
+    left:50px;
+}
+.phn1{
+    position: absolute;
+    top:25px;
+    left:90px;
+    color:rgb(3, 3, 56);
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.add1{
+    position: absolute;
+    top:70px;
+    left:90px;
+    color:rgb(3, 3, 56);
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.net1{
+    position: absolute;
+    top:120px;
+    left:90px;
+    color:rgb(3, 3, 56);
+    font-size: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.net2{
+    position: absolute;
+    top:140px;
+    left:90px;
+    color:rgb(3, 3, 56);
+    font-size: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.net3{
+    position: absolute;
+    top:170px;
+    left:110px;
+    color:rgb(3, 3, 56);
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.net4{
+    position: absolute;
+    top:188px;
+    left:110px;
+    color:rgb(3, 3, 56);
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.insta{
+    position: absolute;
+    top:170px;
+    left:90px;
+}
+.twitter{
+    position: absolute;
+    top:188px;
+    left:90px;
+}
+.sign{
+     font-family: "Lovers Quarrel", cursive;
+    color: white;
+    position: absolute;
+    bottom:30px;
+    left:160px;
+    font-size: 25px;
+    letter-spacing: 3px;
+    z-index: 1;
+}

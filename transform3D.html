@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>lohi</title>
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .threeD{
+              transform-style: preserve-3d; 
+              perspective: 500px;
+              /* perspective-origin: bottom left; */
+              height: 320px;
+              border: 2px solid black;
+            }
+            .child{
+                width: 200px;
+                height: 200px;
+                background-color: rgb(224, 4, 248);
+                font-size: 50px;
+                color: white;
+                transform-origin:bottom;
+                animation: myanime 9s infinite ;            
+            }
+            @keyframes myanime{
+                0%{
+                    transform: rotateY(10deg);
+                }
+                100%{
+                    transform: rotateY(360deg);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="threeD">
+        <div class="child">LOHITHA</div>
+        </div>
+    </body>
+</html>
