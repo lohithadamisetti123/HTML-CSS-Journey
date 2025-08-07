@@ -1,0 +1,268 @@
+/* Reset & Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #8ff5f5;
+}
+
+/* Navigation Bar (Header) */
+nav {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(6, 33, 3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2vw;
+  z-index: 1000;
+}
+
+.logo1 {
+  width: 12vw;
+  min-width: 180px;
+  max-width: 180px;
+  height: auto;
+}
+
+.nav-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  font-size: 1rem;
+  font-weight: 530;
+  text-decoration: none;
+  transition: ease 0.40s;
+  font-family: sans-serif;
+  padding: 5px 6px;
+  border-radius: 4px;
+  min-width: max-content;
+  margin-top: 2%;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  background: white;
+  color: rgb(9, 122, 43);
+}
+
+.user {
+  color: white;
+  font-size: 3rem;
+  margin-left: auto;
+}
+
+/* Main Section */
+.reviews-section {
+  background: linear-gradient(to right, white, #9ce7f1);
+  padding: 150px 20px 50px; /* Added top padding to compensate for fixed nav */
+  text-align: center;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  color: #2c3e50;
+  font-family: cursive;
+}
+
+.sub-heading {
+  font-size: 1.6rem;
+  margin: 40px 0 20px;
+  color: #00796b;
+  font-weight: bold;
+}
+
+/* Container */
+.reviews-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Individual review card */
+.review-card {
+  background: linear-gradient(145deg, #ffffff, #e3f2fd);
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s ease, background 0.3s ease;
+  border-left: 6px solid #4db6ac;
+}
+
+.review-card:hover {
+  transform: scale(1.05);
+  background: linear-gradient(145deg, #e1f5fe, #ffffff);
+}
+
+.review-card h3 {
+  margin-bottom: 10px;
+  color: #00695c;
+  font-weight: bold;
+}
+
+.review-card p {
+  font-style: italic;
+  color: #455a64;
+  margin-bottom: 10px;
+}
+
+.stars {
+  font-size: 1.3rem;
+  color: #ffb300;
+}
+
+/* Footer */
+.footer {
+  background-color: rgb(2, 35, 17);
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.footer-content {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo2 {
+  margin-bottom: 20px;
+}
+
+.footer-columns {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.footlinks {
+  color: white;
+  text-align: left;
+  margin: 10px 20px;
+  min-width: 200px;
+}
+
+.footlinks h4 {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Tapestry", serif;
+  margin-bottom: 10px;
+  margin-right: 40px;
+}
+
+.quick a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 15px 15px;
+}
+
+.contact div {
+  margin: 5px 0;
+  color: white;
+  padding: 5px;
+}
+
+.contact i {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.social a {
+  font-size: 20px;
+  margin: 5px;
+  height: 30px;
+  width: 30px;
+  color: rgb(2, 35, 17);
+  background-color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+}
+
+.social a:hover {
+  transform: scale(1.2);
+}
+
+.end {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.end p {
+  font-size: 13px;
+  color: white;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Responsive Styles */
+@media (max-width: 1000px) {
+  .review-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .navbar a {
+    font-size: 0.9rem;
+    padding: 8px 10px;
+  }
+
+  .footer-columns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footlinks {
+    text-align: center;
+    margin: 15px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .review-card {
+    width: 100%;
+  }
+}

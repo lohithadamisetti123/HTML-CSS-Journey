@@ -1,0 +1,25 @@
+.first{
+    font-size: 96px;
+}
+.second{
+    font-size: 1in;
+}
+.third{
+    font-size: 95pt;
+}
+.myimage{
+    width: 100px;
+}
+.myimage{
+    width: 100pt;
+}
+.parent{
+    width: 600px;
+    height: 100px;
+    border: 2px red solid;
+}
+.child{
+    width: 50%;
+    height: 100px;
+    border: 2px green solid;
+}

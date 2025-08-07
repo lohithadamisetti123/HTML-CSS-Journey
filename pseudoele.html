@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Task</title>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .button {
+        position: relative;
+        width: 180px;
+        height: 70px;
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+        background-image: linear-gradient(to right, rgb(245, 147, 163), rgb(249, 3, 44));
+        border-radius: 7px;
+        overflow: hidden;
+        z-index: 1;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .button::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: -32px;
+        width: 133px;
+        height: 133px;
+        background-image: url('delivery-truck-removebg-preview.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        transform: translateX(-200px) skew(20deg);
+        transition: transform 1.5s linear;
+        z-index: 0;
+      }
+
+      .button:active::before {
+        transform: translateX(200px) skew(20deg);
+      }
+
+      .button span {
+        position: relative;
+        z-index: 1;
+        transition: 0.2s;
+      }
+
+      .button:active span::before {
+        content: "Order Placed";
+        position: absolute;
+        left: 0;
+        right: 0;
+      }
+
+      .button:active span {
+        opacity: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="button"><span>Order</span></div>
+  </body>
+</html>

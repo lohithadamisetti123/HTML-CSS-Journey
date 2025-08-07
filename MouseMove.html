@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Lohitha</title>
+      <style>
+        body{
+            background-color: black;
+        }
+        .circle{
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            border: 2px solid white; 
+            position: absolute;
+            pointer-events: none; 
+        }
+      </style>
+    </head>
+    <body onmousemove="fun(event)" >
+        <div class="circle"></div>
+        <script>
+               function fun(event) {
+                const circle = document.getElementsByClass("circle")[0];
+                circle.style.left = (event.clientX - 10) + "px";
+                circle.style.top = (event.clientY - 10) + "px";
+            }
+        </script>
+    </body>
+</html>

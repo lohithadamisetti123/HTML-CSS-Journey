@@ -1,0 +1,156 @@
+<html>
+    <head>
+        <title>lohi</title>
+        <style>
+            .bgimage{
+                width:100%;
+                height: 100vh;
+                z-index: 0;
+                position: relative;
+            }
+           .sun{
+                z-index: 1;
+                position: absolute;
+                 top: 280px;
+                left: 600px;
+            }
+            .c1{
+                width: 150px;
+                height: 150px;
+                border: 2px solid white;
+                border-radius: 50%;
+                 position: absolute;
+                 top: 240px;
+                left: 560px;
+            }
+            .mer{
+                z-index: 1;
+                position: absolute;
+                 top: 300px;
+                left: 610px;
+                animation: myanime 5s linear infinite ; 
+            }
+           .mer img, .ven img, .earth img, .mar img{ border-radius: 50%; }
+            .c2{
+                width: 250px;
+                height: 250px;
+                border: 2px solid white;
+                border-radius: 50%;
+                 position: absolute;
+                 top: 190px;
+                left: 510px;
+            }
+            .ven{
+                z-index: 1;
+                position: absolute;
+                 top: 300px;
+                left: 610px;
+                animation: myanime1 6s linear infinite ;
+            }
+            .c3{
+                width: 350px;
+                height: 350px;
+                border: 2px solid white;
+                border-radius: 50%;
+                 position: absolute;
+                 top: 140px;
+                left: 460px;
+            }
+            .earth{
+                z-index: 1;
+                position: absolute;
+                 top: 300px;
+                left: 610px;
+                 animation: myanime2 7s linear infinite;
+            }
+            .c4{
+                width: 450px;
+                height: 450px;
+                border: 2px solid white;
+                border-radius: 50%;
+                 position: absolute;
+                 top: 90px;
+                left: 410px;
+            }
+            .mar{
+                z-index: 1;
+                position: absolute;
+                 top: 300px;
+                left: 610px;
+                animation: myanime3 8s linear infinite;
+            }
+            .c5{
+                width: 550px;
+                height: 550px;
+                border: 2px solid white;
+                border-radius: 50%;
+                 position: absolute;
+                 top: 40px;
+                left: 360px;
+            }
+            .jup{
+                z-index: 1;
+                position: absolute;
+                 top: 300px;
+                 left: 610px;
+                animation: myanime4 9s linear infinite;
+             }
+             @keyframes myanime{
+                0%{
+                    transform: rotatez(0deg) translate(70px);
+                }
+                100%{
+                    transform: rotatez(360deg) translate(70px);
+                }
+            }
+             @keyframes myanime1{
+                0%{
+                    transform: rotatez(0deg) translate(130px);
+                }
+                100%{
+                    transform: rotatez(360deg) translate(130px);
+                }
+            }
+            @keyframes myanime2 {
+                0% {
+                    transform: rotateZ(0deg) translate(180px);
+                }
+                100% {
+                    transform: rotateZ(360deg) translate(180px);
+                }
+            }
+            @keyframes myanime3 {
+                0% {
+                    transform: rotateZ(0deg) translate(230px);
+                }
+                100% {
+                    transform: rotateZ(360deg) translate(230px);
+                }
+            }
+            @keyframes myanime4 {
+                0% {
+                    transform: rotateZ(0deg) translate(280px);
+                }
+                100% {
+                    transform: rotateZ(360deg) translate(280px);
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="bgimg"><img src="https://wallpapers.com/images/hd/dark-sky-background-3840-x-2160-ags9rgzan12jdbch.jpg"/>
+            <div class="sun"><img width="70px" height="70px" src="https://pluspng.com/img-png/sun-png-bright-sun-2249.png"/></div>
+            <div class="c1"></div>
+            <div class="mer"><img width="50px" height="50px" src="https://aerospaceguide.net/wp-content/uploads/2016/06/planet-mercury-1.jpg"/></div>
+            <div class="c2"></div>
+            <div class="ven"><img width="50px" height="50px" src="https://worksheets.clipart-library.com/images2/printable-images-of-venus/printable-images-of-venus-34.png"/></div>
+            <div class="c3"></div>
+            <div class="earth"><img width="50px" height="50px" src="https://pluspng.com/img-png/planet-png-hd-earth-png-1600.png"/></div>
+            <div class="c4"></div>
+            <div class="mar"><img width="50px" height="50px" src="https://static.turbosquid.com/Preview/2017/02/24__00_19_25/5.jpgD8FE7EB2-0DDB-469C-B9B3-C990B6E4F768Zoom.jpg"/></div>
+            <div class="c5"></div>
+            <div class="jup"><img width="50px" height="50px" src="https://www.pngall.com/wp-content/uploads/7/Jupiter-PNG-Free-Image.png"/></div>
+        </div>
+    </body>
+</html>
